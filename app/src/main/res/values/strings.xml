@@ -1,0 +1,22 @@
+<resources>
+
+    <string name="app_name">GeoQuiz</string>
+    <string name="pregunta1">1+1 es 2</string>
+    <string name="pregunta2">1+1 es 3</string>
+    <string name="pregunta3">1+1 es 4</string>
+    <string name="pista1">PISTA 1</string>
+    <string name="pista2">PISTA 2</string>
+    <string name="pista3">PISTA 3</string>
+    <string name="vBoton">Verdad</string>
+    <string name="fBoton">Falso</string>
+    <string name="cMensaje">Correcto.</string>
+    <string name="iMensaje">Incorrecto</string>
+    <string name="sPuntos">PUNTOS</string>
+    <string name="nPuntos">0</string>
+    <string name="vaBoton">VALORAR</string>
+    <string name="pBoton">Pista</string>
+    <string name="verTxt">Ver Pista</string>
+    <string name="noVerTxt">No ver Pista</string>
+    <string name="ValoraStr">Necesitamos tu opinion, ¿te gustaria valorar el juego?</string>
+
+</resources>

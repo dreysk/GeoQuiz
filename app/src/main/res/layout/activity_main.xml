@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andreyshklyaev.geoquiz.MainActivity">
+
+    <FrameLayout
+
+        android:id="@+id/ALL"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+
+            android:id="@+id/LayPts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_marginBottom="400px">
+
+            <TextView
+                android:id="@+id/PTSText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sPuntos" />
+
+            <TextView
+                android:id="@+id/PTS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/nPuntos" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/PregLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+
+                android:id="@+id/numPreg"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="" />
+
+            <TextView
+
+                android:id="@+id/PREG"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pregunta1" />
+
+            <Button
+                android:id="@+id/mValorar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/vaBoton"/>
+
+            <Button
+                android:id="@+id/mPista"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/pBoton"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/RespLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="450px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/TRU"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/trueimg" />
+
+            <Button
+                android:id="@+id/FAL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/falseimg" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/VerifyLay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="450px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/Ver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/verTxt" />
+
+            <Button
+                android:id="@+id/NoVer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/noVerTxt" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/Valoranos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="450px"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:id="@+id/ValoraTxt"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ValoraStr" />
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+
+</android.support.constraint.ConstraintLayout>
